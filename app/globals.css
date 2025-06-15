@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-*: initial;
+  --breakpoint-sm1: 320px;
+  --breakpoint-sm3: 425px;
+  --breakpoint-sm2: 525px;
+  --breakpoint-md1: 768px;
+  --breakpoint-md2: 900px;
+  --breakpoint-lg1: 1024px;
+  --breakpoint-lg2: 1250px;
+  --breakpoint-xl: 1440px;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
